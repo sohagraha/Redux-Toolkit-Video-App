@@ -1,4 +1,6 @@
 import React from 'react';
+import Like from '../../../../assets/like.svg';
+import DisLike from '../../../../assets/unlike.svg';
 
 const LikeDislike = () => {
     return (
@@ -7,7 +9,7 @@ const LikeDislike = () => {
                 <div className="shrink-0">
                     <img
                         className="w-5 block"
-                        src="./assets/like.svg"
+                        src={Like}
                         alt="Like"
                     />
                 </div>
@@ -21,7 +23,7 @@ const LikeDislike = () => {
                 <div className="shrink-0">
                     <img
                         className="w-5 block"
-                        src="./assets/unlike.svg"
+                        src={DisLike}
                         alt="Unlike"
                     />
                 </div>
