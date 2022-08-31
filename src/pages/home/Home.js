@@ -8,11 +8,9 @@ import VideoGrid from '../../components/videoGrid/VideoGrid';
 const Home = () => {
     return (
         <div>
-            <Navbar />
             <Tags />
             <VideoGrid />
             <Pagination />
-            <Footer />
         </div>
     );
 };

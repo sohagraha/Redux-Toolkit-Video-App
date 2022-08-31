@@ -5,11 +5,9 @@ import Navbar from '../../components/navbar/Navbar';
 
 const Video = () => {
     return (
-        <div>
-            <Navbar />
+        <>
             <MainVideo />
-            <Footer />
-        </div>
+        </>
     );
 };
 
