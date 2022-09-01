@@ -3,7 +3,6 @@ import Like from '../../../../assets/like.svg';
 import DisLike from '../../../../assets/unlike.svg';
 
 const LikeDislike = ({ likes, unlikes }) => {
-    console.log(likes, unlikes);
     return (
         <div className="flex gap-10 w-48">
             <div className="flex gap-1 items-center">
