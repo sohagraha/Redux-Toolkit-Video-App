@@ -1,8 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { searchByAuthor } from '../../../features/filter/filterSlice';
 
 const VideoGridItem = ({ video = {} }) => {
+    const dispatch = useDispatch();
     const { id, thumbnail, title, duration, avatar, author, views, date } = video;
+    const authorChange = () => {
+        dispatch(searchByAuthor(author));
+    };
     return (
         <div
             className="col-span-12 sm:col-span-6 md:col-span-3 duration-300 hover:scale-[1.03]"
@@ -41,11 +47,11 @@ const VideoGridItem = ({ video = {} }) => {
                                 {title}
                             </p>
                         </Link>
-                        <Link className="text-gray-400 text-xs mt-2 hover:text-gray-600"
-                            to={`videos/${id}`}
+                        <div className="text-gray-400 text-xs mt-2 hover:text-gray-600 cursor-pointer"
+                            onClick={authorChange}
                         >
                             {author}
-                        </Link>
+                        </div>
                         <p className="text-gray-400 text-xs mt-1">
                             {views} views . {date}
                         </p>

@@ -1,14 +1,18 @@
 {
-    "name": "lws-json-server-todos",
-    "description": "Example in memory videos api with json-server by Learn with Sumit",
-    "version": "1.0.0",
-    "main": "index.js",
-    "scripts": {
-        "start": "json-server --watch db_videos.json --no-cors true --port 9000"
-    },
-    "dependencies": {
-        "json-server": "^0.17.0"
-    },
-    "keywords": [],
-    "author": "Sumit Saha, Learn with Sumit"
+  "name": "json-server-deploy",
+  "version": "1.0.0",
+  "description": "Simple json database to deploy to the host of your choice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "json-server --watch db.json --no-cors true --port 9000"
+  },
+  "keywords": [
+    "json-server,heroku, node, REST API"
+  ],
+  "author": "Jesper Orb",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
 }

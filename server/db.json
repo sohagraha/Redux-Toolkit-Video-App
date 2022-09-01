@@ -11,7 +11,11 @@
             "views": "2.1k",
             "link": "https://www.youtube-nocookie.com/embed/6O4s7v28nlw",
             "thumbnail": "https://i3.ytimg.com/vi/6O4s7v28nlw/maxresdefault.jpg",
-            "tags": ["javascript", "react", "tips"],
+            "tags": [
+                "javascript",
+                "react",
+                "tips"
+            ],
             "likes": 0,
             "unlikes": 0
         },
@@ -19,14 +23,17 @@
             "id": 2,
             "title": "VS Code Snippets - Boost your productivity with User Snippets",
             "description": "আমরা যখন Visual Studio Code Editor এ কাজ করি তখন অহরহ ব্যবহৃত কোড ব্লক গুলো আমাদের কে বারবার টাইপ করতে হয় এবং সামগ্রিকভাবে চিন্তা করলে এরকম ছোট ছোট ম্যনুয়াল কাজ আমাদের productivity অনেকাংশেই কমিয়ে দেয়। VS Code এর বিল্ট ইন ইউজার স্নিপেট ফিচারের মাধ্যমে আমরা কমন কাজগুলো স্নিপেট আকারে সাজিয়ে রেখে দিতে পারি এবং শর্টকাট কমান্ডের মাধ্যমে বড় বড় কোড ব্লক গুলো নিয়ে আসতে পারি। এই ভিডিওতে আপনারা এটাই জানতে পারবেন যে কিভাবে আমরা Visual Studio Code Editor এ কাস্টম স্নিপেট লিখতে পারি।",
-            "author": "Learn with Sumit",
+            "author": "Soahg Raha",
             "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
             "date": "April 25, 2022",
             "duration": "10:12",
             "views": "2.1k",
             "link": "https://www.youtube-nocookie.com/embed/N-U6AVcIPy4",
             "thumbnail": "https://i3.ytimg.com/vi/N-U6AVcIPy4/maxresdefault.jpg",
-            "tags": ["vscode", "tips"],
+            "tags": [
+                "vscode",
+                "tips"
+            ],
             "likes": 0,
             "unlikes": 0
         },
@@ -41,7 +48,10 @@
             "views": "2.1k",
             "link": "https://www.youtube-nocookie.com/embed/4M7D3O2XX4o",
             "thumbnail": "https://i3.ytimg.com/vi/4M7D3O2XX4o/maxresdefault.jpg",
-            "tags": ["tailwind", "css"],
+            "tags": [
+                "tailwind",
+                "css"
+            ],
             "likes": 0,
             "unlikes": 0
         },
@@ -56,7 +66,11 @@
             "views": "2.1k",
             "link": "https://www.youtube-nocookie.com/embed/dD9O8DnIBj4",
             "thumbnail": "https://i3.ytimg.com/vi/dD9O8DnIBj4/maxresdefault.jpg",
-            "tags": ["debounce", "javascript", "tips"],
+            "tags": [
+                "debounce",
+                "javascript",
+                "tips"
+            ],
             "likes": 0,
             "unlikes": 0
         },
@@ -71,7 +85,11 @@
             "views": "2.1k",
             "link": "https://www.youtube-nocookie.com/embed/4tV1Mfi4fMA",
             "thumbnail": "https://i3.ytimg.com/vi/4tV1Mfi4fMA/maxresdefault.jpg",
-            "tags": ["sass", "css", "ui"],
+            "tags": [
+                "sass",
+                "css",
+                "ui"
+            ],
             "likes": 0,
             "unlikes": 0
         },
@@ -86,7 +104,11 @@
             "views": "2.1k",
             "link": "https://www.youtube-nocookie.com/embed/34tjWL9wi4g",
             "thumbnail": "https://i3.ytimg.com/vi/34tjWL9wi4g/maxresdefault.jpg",
-            "tags": ["react", "router", "javascript"],
+            "tags": [
+                "react",
+                "router",
+                "javascript"
+            ],
             "likes": 0,
             "unlikes": 0
         },
@@ -101,7 +123,106 @@
             "views": "2.1k",
             "link": "https://www.youtube-nocookie.com/embed/smDa6hoxLKI",
             "thumbnail": "https://i3.ytimg.com/vi/smDa6hoxLKI/maxresdefault.jpg",
-            "tags": ["tailwind", "css", "ui"],
+            "tags": [
+                "tailwind",
+                "css",
+                "ui"
+            ],
+            "likes": 0,
+            "unlikes": 0
+        },
+        {
+            "id": 8,
+            "title": "Tailwind CSS Tutorial Bangla - Introduction to Tailwind CSS",
+            "description": "Tailwind is a utility-first CSS framework to rapidly build modern websites without ever leaving your HTML. In this Tailwind CSS tutorial, I have given a short introduction and overview of Tailwind CSS in Bangla language. Also, I have explained, why Tailwind vs Bootstrap debate should be stopped as both are useful in their own ways.",
+            "author": "Learn with Sumit",
+            "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
+            "date": "Oct 15, 2021",
+            "duration": "10:12",
+            "views": "2.1k",
+            "link": "https://www.youtube-nocookie.com/embed/smDa6hoxLKI",
+            "thumbnail": "https://i3.ytimg.com/vi/smDa6hoxLKI/maxresdefault.jpg",
+            "tags": [
+                "tailwind",
+                "css",
+                "ui"
+            ],
+            "likes": 0,
+            "unlikes": 0
+        },
+        {
+            "id": 9,
+            "title": "Tailwind CSS Tutorial Bangla - Introduction to Tailwind CSS",
+            "description": "Tailwind is a utility-first CSS framework to rapidly build modern websites without ever leaving your HTML. In this Tailwind CSS tutorial, I have given a short introduction and overview of Tailwind CSS in Bangla language. Also, I have explained, why Tailwind vs Bootstrap debate should be stopped as both are useful in their own ways.",
+            "author": "Learn with Sumit",
+            "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
+            "date": "Oct 15, 2021",
+            "duration": "10:12",
+            "views": "2.1k",
+            "link": "https://www.youtube-nocookie.com/embed/smDa6hoxLKI",
+            "thumbnail": "https://i3.ytimg.com/vi/smDa6hoxLKI/maxresdefault.jpg",
+            "tags": [
+                "tailwind",
+                "css",
+                "ui"
+            ],
+            "likes": 0,
+            "unlikes": 0
+        },
+        {
+            "id": 10,
+            "title": "Tailwind CSS Tutorial Bangla - Introduction to Tailwind CSS",
+            "description": "Tailwind is a utility-first CSS framework to rapidly build modern websites without ever leaving your HTML. In this Tailwind CSS tutorial, I have given a short introduction and overview of Tailwind CSS in Bangla language. Also, I have explained, why Tailwind vs Bootstrap debate should be stopped as both are useful in their own ways.",
+            "author": "Learn with Sumit",
+            "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
+            "date": "Oct 15, 2021",
+            "duration": "10:12",
+            "views": "2.1k",
+            "link": "https://www.youtube-nocookie.com/embed/smDa6hoxLKI",
+            "thumbnail": "https://i3.ytimg.com/vi/smDa6hoxLKI/maxresdefault.jpg",
+            "tags": [
+                "tailwind",
+                "css",
+                "ui"
+            ],
+            "likes": 0,
+            "unlikes": 0
+        },
+        {
+            "id": 11,
+            "title": "Tailwind CSS Tutorial Bangla - Introduction to Tailwind CSS",
+            "description": "Tailwind is a utility-first CSS framework to rapidly build modern websites without ever leaving your HTML. In this Tailwind CSS tutorial, I have given a short introduction and overview of Tailwind CSS in Bangla language. Also, I have explained, why Tailwind vs Bootstrap debate should be stopped as both are useful in their own ways.",
+            "author": "Learn with Sumit",
+            "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
+            "date": "Oct 15, 2021",
+            "duration": "10:12",
+            "views": "2.1k",
+            "link": "https://www.youtube-nocookie.com/embed/smDa6hoxLKI",
+            "thumbnail": "https://i3.ytimg.com/vi/smDa6hoxLKI/maxresdefault.jpg",
+            "tags": [
+                "tailwind",
+                "css",
+                "ui"
+            ],
+            "likes": 0,
+            "unlikes": 0
+        },
+        {
+            "id": 12,
+            "title": "Tailwind CSS Tutorial Bangla - Introduction to Tailwind CSS",
+            "description": "Tailwind is a utility-first CSS framework to rapidly build modern websites without ever leaving your HTML. In this Tailwind CSS tutorial, I have given a short introduction and overview of Tailwind CSS in Bangla language. Also, I have explained, why Tailwind vs Bootstrap debate should be stopped as both are useful in their own ways.",
+            "author": "Learn with Sumit",
+            "avatar": "https://avatars.githubusercontent.com/u/73503432?v=4",
+            "date": "Oct 15, 2021",
+            "duration": "10:12",
+            "views": "2.1k",
+            "link": "https://www.youtube-nocookie.com/embed/smDa6hoxLKI",
+            "thumbnail": "https://i3.ytimg.com/vi/smDa6hoxLKI/maxresdefault.jpg",
+            "tags": [
+                "tailwind",
+                "css",
+                "ui"
+            ],
             "likes": 0,
             "unlikes": 0
         }

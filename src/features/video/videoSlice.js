@@ -16,6 +16,15 @@ export const fetchVideo = createAsyncThunk('video/fetchVideo', async (id) => {
 const videoSlice = createSlice({
     name: 'video',
     initialState,
+    reducers: {
+        setLike: (state, action) => {
+            state.video.likes = state.video.likes += 1;
+
+        },
+        setDislike: (state, action) => {
+            state.video.unlikes = state.video.unlikes += 1;
+        }
+    },
     extraReducers: (builder) => {
         builder.addCase(fetchVideo.pending, (state, action) => {
             state.isError = false;
@@ -33,3 +42,4 @@ const videoSlice = createSlice({
 });
 
 export default videoSlice.reducer;
+export const { setLike, setDislike } = videoSlice.actions;

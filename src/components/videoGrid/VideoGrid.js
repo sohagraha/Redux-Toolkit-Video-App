@@ -9,10 +9,11 @@ import Error from '../ui/error/Error';
 const VideoGrid = () => {
     const dispatch = useDispatch();
     const { videos, isLoading, isError, error } = useSelector((state) => state.videos);
-    const { tags, searchTag: search } = useSelector((state) => state.filter);
+    const { tags, searchTag: search, searchAuthor: author } = useSelector((state) => state.filter);
+    console.log(author);
     useEffect(() => {
-        dispatch(fetchVideos({ tags, search }));
-    }, [dispatch, tags, search]);
+        dispatch(fetchVideos({ tags, search, author }));
+    }, [dispatch, tags, search, author]);
 
     let content;
 
@@ -29,20 +30,18 @@ const VideoGrid = () => {
     }
 
     return (
-        <section className="pt-12">
-            <section className="pt-12">
-                <div
-                    className="grid grid-cols-12 gap-4 max-w-7xl mx-auto px-5 lg:px-0 min-h-[300px]"
-                >
-                    {/* <!-- single video --> */}
-                    {
-                        content
-                    }
+        <section className="pt-6">
+            <div
+                className="grid grid-cols-12 gap-4 max-w-7xl mx-auto px-5 lg:px-0 min-h-[300px]"
+            >
+                {/* <!-- single video --> */}
+                {
+                    content
+                }
 
-                    {/* <!-- error section
+                {/* <!-- error section
                     <div className="col-span-12">some error happened</div> --> */}
-                </div>
-            </section>
+            </div>
         </section>
     );
 };
