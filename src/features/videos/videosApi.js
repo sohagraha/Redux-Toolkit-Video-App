@@ -1,6 +1,9 @@
+import { useSelector } from "react-redux";
 import axiosInstance from "../../utils/axios";
 
+
 export const getVideos = async (tags, search, author) => {
+
     let queryString = '';
     if (tags.length > 0) {
         queryString += tags.map(tag => `tags_like=${tag}`).join('&');
@@ -12,5 +15,7 @@ export const getVideos = async (tags, search, author) => {
         queryString += `&author=${author}`;
     }
     const response = await axiosInstance.get(`/videos?${queryString}`);
+
+
     return response.data;
 }

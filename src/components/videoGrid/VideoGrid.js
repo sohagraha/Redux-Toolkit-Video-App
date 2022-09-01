@@ -9,11 +9,18 @@ import Error from '../ui/error/Error';
 const VideoGrid = () => {
     const dispatch = useDispatch();
     const { videos, isLoading, isError, error } = useSelector((state) => state.videos);
-    const { tags, searchTag: search, searchAuthor: author } = useSelector((state) => state.filter);
+    const { tags, searchTag: search, searchAuthor: author, page } = useSelector((state) => state.filter);
     console.log(author);
     useEffect(() => {
         dispatch(fetchVideos({ tags, search, author }));
     }, [dispatch, tags, search, author]);
+
+
+    const indexMin = page * 4 - 4;
+    const indexMax = indexMin + 4;
+    const data = videos.filter(
+        (x, index) => index >= indexMin && index < indexMax
+    );
 
     let content;
 
@@ -26,7 +33,7 @@ const VideoGrid = () => {
         content = <div>No videos found</div>;
     }
     else if (!isLoading && !isError && videos?.length > 0) {
-        content = videos.map((video) => <VideoGridItem key={video.id} video={video} />);
+        content = data.map((video) => <VideoGridItem key={video.id} video={video} />);
     }
 
     return (
