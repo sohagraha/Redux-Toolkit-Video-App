@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import SearchBox from './searchBox/SearchBox';
 import logoImage from '../../assets/lws.svg';
 import searchImage from '../../assets/search.svg';
 import { Link } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
 const Navbar = () => {
+    const { searchTag } = useSelector(state => state.filter);
+    const [searchValue, setSearchValue] = useState(searchTag);
     return (
         <nav className="bg-slate-100 shadow-md">
             <div
@@ -26,6 +29,8 @@ const Navbar = () => {
                         className="inline h-4 cursor-pointer"
                         src={searchImage}
                         alt="Search"
+                        value={searchValue}
+                        onChange={(e) => setSearchValue(e.target.value)}
                     />
                 </div>
             </div>
