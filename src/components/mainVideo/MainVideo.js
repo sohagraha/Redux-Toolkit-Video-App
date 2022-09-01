@@ -18,6 +18,7 @@ const MainVideo = () => {
     }, [dispatch, videoId]);
 
     const { video, isLoading, isError, error } = useSelector((state) => state.video);
+    const { tags, id } = video;
 
     let content;
 
@@ -35,7 +36,7 @@ const MainVideo = () => {
                 <VideoDescription video={video} />
             </div>
             {/* <!-- related videos --> */}
-            <RelatedVideos />
+            <RelatedVideos currentVideoId={id} tags={tags} />
         </div>;
     }
     else if (!isLoading && !isError && !video?.id) {
