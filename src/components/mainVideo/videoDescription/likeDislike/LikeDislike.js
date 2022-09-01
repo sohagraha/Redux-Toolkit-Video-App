@@ -2,10 +2,11 @@ import React from 'react';
 import Like from '../../../../assets/like.svg';
 import DisLike from '../../../../assets/unlike.svg';
 
-const LikeDislike = () => {
+const LikeDislike = ({ likes, unlikes }) => {
+    console.log(likes, unlikes);
     return (
         <div className="flex gap-10 w-48">
-            <div className="flex gap-1">
+            <div className="flex gap-1 items-center">
                 <div className="shrink-0">
                     <img
                         className="w-5 block"
@@ -16,10 +17,10 @@ const LikeDislike = () => {
                 <div
                     className="text-sm leading-[1.7142857] text-slate-600"
                 >
-                    100K
+                    {likes}
                 </div>
             </div>
-            <div className="flex gap-1">
+            <div className="flex gap-1 items-center">
                 <div className="shrink-0">
                     <img
                         className="w-5 block"
@@ -30,7 +31,7 @@ const LikeDislike = () => {
                 <div
                     className="text-sm leading-[1.7142857] text-slate-600"
                 >
-                    100K
+                    {unlikes}
                 </div>
             </div>
         </div>
